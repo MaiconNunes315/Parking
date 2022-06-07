@@ -7,7 +7,7 @@
   
   
 ```sh
-[https://github.com/MaiconNunes315/Parking.git]
+https://github.com/MaiconNunes315/Parking.git
 ```
 
 
