@@ -1,0 +1,109 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url('https://autopark.com.br/wp-content/uploads/2019/12/imagem-destaque.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(37, 37, 37);
+}
+
+
+
+#register{
+    padding: 10px;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 10px;   
+}
+
+input{
+    height: 30px;
+    font-size: 20px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 10px black;
+    
+}
+
+button{
+    background-color:rgb(102, 99, 99);
+    color: white;
+    border-radius: 5px;
+}
+
+.table{
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(113, 114, 117, 0.658);
+    box-shadow: 1px 1px 10px black;
+ }
+
+th{
+    font-size: 25px;
+    padding: 15px;
+    height: 20px;
+    width: 170px;
+    text-align: center;
+ 
+}
+
+tbody{
+    height: 30px;
+    font-size: 22px;
+}
+
+@media (max-width:540px){
+
+    input{
+        font-size: 15px;
+        width: 150px;
+        margin: 0;
+        
+    }
+  
+    .registerDiv{
+        display: flex;
+        justify-content: center;
+    }
+
+    #register{
+        padding: 10px;
+        margin: 0;
+    }
+    
+    
+    th{
+        font-size: 15px;
+        padding: 5px;
+        height: 20px;
+        width: 100px;
+        text-align: center;
+     
+    }
+    
+    tbody{
+        height: 30px;
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:800px){
+
+    body{
+        background-image: url('https://i.pinimg.com/564x/92/87/31/9287315b3d2bba1c9584b9d10078ee44.jpg');
+    }
+}
+
+
+
+
